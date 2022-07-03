@@ -1,0 +1,84 @@
+html, body
+{
+  display: flex;
+  flex-flow: column;
+  height:100%;
+}
+
+#row1
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  font-size: 60px;
+  color:rgb(0, 0, 0);
+  height: 100px;
+  background-color: red;
+}
+
+#row1 img
+{
+  margin-left: 10px;
+  justify-self: start;
+  width: 12%;
+}
+
+#links
+{
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-self: end;
+  margin-right: 30px;
+  column-gap: 30px;
+}
+
+
+#row2
+{
+  height: 100px;
+  background-color: blue;
+}
+
+#row3
+{
+  display: flex;
+  flex: 1 auto;
+  align-items: center;
+  background-color: yellow;
+}
+
+#toggleCanvas
+{
+  background-color: red;
+}
+
+.btn
+{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  background-color: white;
+}
+
+#drawToggle
+{
+  background-color: grey;
+}
+
+#drawingCanvas
+{
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+
+#buttonsCont
+{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;  
+}
